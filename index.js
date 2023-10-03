@@ -34,4 +34,23 @@ pra.innerText="chnage pragraph "
 
 // quarryselector
 
+// idname jonno #use 
+document.querySelector('#id1')
 
+// className jonno .use
+document.querySelector('.classx')
+
+// direct tag jonno tag name 
+document.querySelector('h1')
+
+
+// quarryselectorALL
+
+let p = document.querySelectorAll('p')[2];
+p.innerHTML="sing song sha"
+
+let pip = document.querySelectorAll('p')[1];
+pip.innerText="this is joy mohammod"
+
+ let h = document.querySelectorAll('h2')[0];
+ h.innerHTML="dom mean document object model"
